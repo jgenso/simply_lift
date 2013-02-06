@@ -10,3 +10,20 @@ contact the Lift community http://liftweb.net/community
 
 Ayuda para traducción
 
+Pasoss para colaborar con la traducción
+
+1) Clonar el repositorio con git clone git@github.com:jgenso/simply_lift.git
+2) Ejecutar el comando: git branch --track spanish origin/spanish
+3) Trabajar en la rama spansih para esto ejecutar el siguiente comando: git checkout spanish
+4) Una vez se han realizado los cambios que se requieran se hace un commit y los respectivos pull merge(tomar en cuenta que se esta trabajando sobre la rama)
+5) Para subir los cambios se debe ejecutar el comando: git push origin spanish
+
+NOTA: 
+
+Si se esta trabajando sobre lo mismo con otras personas se debe ejecutar lo sgte antes de cada push:
+
+$ git pull --rebase origin spanish
+$ git push origin spanish
+
+(La opción --rebase permite abandonar el pull si es que existen demasiados conflictos.)
+
